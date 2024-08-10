@@ -16,14 +16,14 @@ try {
     $mail->isSMTP();
     $mail->Host       = 'smtp.gmail.com';
     $mail->SMTPAuth   = true;
-    $mail->Username   = 'meghmehta02@gmail.com';
-    $mail->Password   = 'txoobwymgaoqihkg';
+    $mail->Username   = '********@gmail.com';
+    $mail->Password   = '*************';
     // gornwddnlkqrklub
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->Port       = 587;
 
     //Recipients
-    $mail->setFrom('meghmehta02@gmail.com', 'VALA INDUSTRIES');
+    $mail->setFrom('************@gmail.com', 'VALA INDUSTRIES');
     $mail->addAddress($email,$name);
 
     //Content
